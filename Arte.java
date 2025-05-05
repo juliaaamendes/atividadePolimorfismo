@@ -8,11 +8,6 @@ public abstract class Arte {
         this.nome = nome;
     }
 
-    private String pintura;
-    public String getPintura() {
-        return pintura;
-    }
-    public void setPintura(String pintura) {
-        this.pintura = pintura;
-    }
+    public abstract String getPintura();
+    public abstract String getEscultura();
 }
