@@ -1,5 +1,6 @@
 public abstract class Arte {
-    public abstract String getPintura();
-    public abstract String getEscultura();
+    public abstract String getDefinicao();
+    public abstract String getExercio();
+    public abstract String getDesafio();
 }
 
