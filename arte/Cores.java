@@ -1,3 +1,4 @@
+package arte;
 import java.util.Scanner;
 
 public class Cores extends Arte {

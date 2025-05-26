@@ -1,3 +1,4 @@
+package arte;
 public class TesteArte {
     public static void main(String[] args) {
         Cores cores = new Cores();
