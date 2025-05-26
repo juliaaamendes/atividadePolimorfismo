@@ -1,4 +1,5 @@
 package arte;
+
 import java.util.Scanner;
 
 public class Cores extends Arte {
@@ -7,7 +8,7 @@ public class Cores extends Arte {
         String reset = "\033[0m";
         
         // Bloco grande (3x3) com a cor
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 1; i++) {
             System.out.print(cor + "   " + reset + " ");
         }
         System.out.println(" " + nome);
@@ -47,9 +48,9 @@ public class Cores extends Arte {
         mostrarCoresSecundarias();
         mostrarCoresTerciarias();
         return "Cores são percepções visuais criadas pela luz refletida em objetos. " +
-               "As cores primárias (vermelho, azul e amarelo) são as bases para criar todas as outras cores. " +
-               "As cores secundárias (magenta, ciano e laranja) são formadas pela mistura de duas cores primárias. " +
-               "As cores terciárias são combinações de uma cor primária com uma cor secundária.";
+               "\nAs cores primárias (vermelho, azul e amarelo) são as bases para criar todas as outras cores. " +
+               "\nAs cores secundárias (magenta, ciano e laranja) são formadas pela mistura de duas cores primárias. " +
+               "\nAs cores terciárias são combinações de uma cor primária com uma cor secundária.";
     }
 
     @Override
@@ -78,14 +79,6 @@ public class Cores extends Arte {
         
         scanner.close();
         return resultado;
-    }
-
-    @Override
-    public String getDesafio() {
-        mostrarTodasPaletas();
-        return "Desafio: Crie um programa que exiba blocos coloridos representando " +
-               "as cores primárias, secundárias e terciárias. " +
-               "Use as cores mencionadas acima e adicione pelo menos uma cor terciária adicional.";
     }
 }
 
