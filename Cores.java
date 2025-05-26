@@ -23,7 +23,7 @@ public class Cores extends Arte {
     public static void mostrarCoresSecundarias() {
         System.out.println("\n=== CORES SECUNDÁRIAS ===");
         exibirBlocoColorido(255, 0, 255, "Magenta (Vermelho + Azul)");
-        exibirBlocoColorido(0, 255, 255, "Ciano (Azul + Verde)");
+        exibirBlocoColorido(0, 128, 0, "Verde (Amarelo + Azul)");
         exibirBlocoColorido(255, 165, 0, "Laranja (Vermelho + Amarelo)");
     }
     
@@ -31,7 +31,7 @@ public class Cores extends Arte {
         System.out.println("\n=== CORES TERCIÁRIAS ===");
         exibirBlocoColorido(255, 192, 203, "Rosa");
         exibirBlocoColorido(128, 0, 128, "Roxo");
-        exibirBlocoColorido(0, 128, 0, "Verde");
+        exibirBlocoColorido(0, 255, 255, "Ciano");;
         exibirBlocoColorido(255, 215, 0, "Dourado");
     }
     

@@ -30,7 +30,7 @@ public class TesteEspelho {
 
             };
 
-            espelho.add(e);
+            espelhos.add(e);
 
             System.out.print("Deseja adicionar outro? (s/n): "); 
 
