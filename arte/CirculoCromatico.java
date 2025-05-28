@@ -9,17 +9,17 @@ public class CirculoCromatico extends Arte {
     @Override
     public String getDefinicao() {
         desenharCirculoDegrade();
-        System.out.println("O círculo cromático é uma representação visual das cores, " +
-                "organizadas em um círculo para mostrar as relações entre elas. " +
-                "Neste exercício, criamos um círculo cromático digital com um degradê de cores, " +
-                "utilizando o modelo de cor RGB (Vermelho, Verde, Azul).");
+        System.out.println("\nO círculo cromático é uma representação visual das cores, " +
+                "\norganizadas em um círculo para mostrar as relações entre elas. " +
+                "\nNeste exercício, criamos um círculo cromático digital com um degradê de cores, " +
+                "\nutilizando o modelo de cor RGB (Vermelho, Verde, Azul).");
         return "O círculo cromático é uma ferramenta essencial na teoria das cores, " +
-                "ajudando a entender como as cores se relacionam e como podem ser combinadas.";
+                "\najudando a entender como as cores se relacionam e como podem ser combinadas.";
     }
     
     @Override
     public String getExercio() {
-        
+
         return "Círculo Cromático Digital com Degradê (Terminal RGB)";
     }
     
