@@ -1,13 +1,4 @@
 public class Retangulo extends Figura{
-    private int base;
-
-    public int getBase(){
-        return base;
-    };
- 
-    public void setBase(int base){
-            this.base = base;
-    };
 
     @Override
     public String exibirDefinicao(){
@@ -20,12 +11,8 @@ public class Retangulo extends Figura{
     };
 
     @Override
-    public int calcularA(){
-        return base*lado;
-    };
-
-    @Override
-    public int calcularP(){
-        return lado*2 + base*2;
+    public String mostrarExemplo(){
+        System.out.println("Por exemplo: Um retângulo de lado = 2cm e base = 4cm apresenta uma área de 8cm e um perímetro de 12cm");
+        return null;
     };
 }

@@ -1,33 +1,5 @@
 public class Triangulo extends Figura{
-    private int base;
-    private int lado2;
-    private int altura;
-
-    public int getBase(){
-        return base;
-    };
  
-    public void setBase(int base){
-            this.base = base;
-    };
-
-
-    public int getLado2(){
-        return lado2;
-    };
- 
-    public void setLado2(int lado2){
-            this.lado2 = lado2;
-    };
-
-
-    public int getAltura(){
-        return altura;
-    };
- 
-    public void setAltura(int altura){
-            this.altura = altura;
-    };
 
 
     @Override
@@ -41,12 +13,8 @@ public class Triangulo extends Figura{
     };
 
     @Override
-    public int calcularA(){
-        return base*altura/2;
-    };
-
-    @Override
-    public int calcularP(){
-        return base+lado+lado2;
+    public String mostrarExemplo(){
+        System.out.println("Por exemplo: Um triângulo de lado1 = 4cm, lado2 = 4cm, base = 2cm e altura = 4cm apresenta uma área de 4cm e um perímetro de 10cm");
+        return null;
     };
 };
