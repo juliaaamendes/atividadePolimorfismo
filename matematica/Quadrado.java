@@ -1,4 +1,4 @@
-
+package matematica;
 
 public class Quadrado extends Figura {
 

@@ -22,7 +22,7 @@ public class Main {
             switch (opcao) {
                 case 1 -> arte.TesteArte.executar();
                 case 2 -> fisica.TesteEspelho.executar();
-                case 3 -> matematica.Main_mat.executar();
+                case 3 -> new matematica.Main_mat().executar();
                 case 0 -> System.out.println("Encerrando programa.");
                 default -> System.out.println("Opção inválida.");
             }
@@ -30,5 +30,5 @@ public class Main {
         } while (opcao != 0);
 
         sc.close();
-    }
+    }
 }

@@ -1,10 +1,10 @@
-
+package matematica;
 
 import java.util.Random;
 import java.util.Scanner;
 
 public class Main_mat {
-    public static void main(String[] args){
+    public void executar() {
 
         Scanner scanner = new Scanner(System.in, "UTF-8");
         Random random = new Random();
