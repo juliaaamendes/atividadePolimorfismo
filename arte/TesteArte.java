@@ -3,7 +3,7 @@ package arte;
 import java.util.Scanner;
 
 public class TesteArte {
-    public static void main(String[] args) {
+    public static void executar() {
         Cores cores = new Cores();
         CirculoCromatico circuloCromatico = new CirculoCromatico();
         CombinacaoCores combinacaoCores = new CombinacaoCores();
